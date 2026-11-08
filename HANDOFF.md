@@ -92,7 +92,8 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Partners deck finalized: 20 slides + 2 backups. Branding is Flara only (Rights Hero removed from the slides, footer and contact). Contact: "Ibrahim Ahmed · flara.io". Cover dated 8 November 2026. Phase 1 targets: 4 instructors, 4 sample projects.
 - Film Festival slides now follow "The Dark Room" (students film, Flara animates history). Game to Gain slide maps Flara to the game video, Idea, Audio and Best Marketing; the only example in the deck is the Ibn Battuta opening film (slide 11); the Film Festival example slide was dropped too (film after the meeting); the Crab Quest pack is kept for later. Entrepreneur's example slide was dropped (May round).
 - Flara prompt packs: `game-to-gain/ibn-battuta/`, `game-to-gain/crab-quest/`; Flara studio fields in `context/flara-studio-parameters.md`.
-- Videos still to make: `partners/media/game-to-gain.mp4` (the only one the deck needs).
+- Ibn Battuta opening film made in Flara (48 s, 1280×720, free-plan watermark) and placed as `partners/media/game-to-gain.mp4` (slide 11). The hero came out young, without a beard or turban, unlike the prompt pack.
+- Next: connect the Flara MCP (`claude mcp add --transport http flara https://api.flara.io/api/mcp/`, then `/mcp` → Authenticate) to run the prompt packs from Claude Code..
 
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).
