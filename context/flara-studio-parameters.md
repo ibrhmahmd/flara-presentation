@@ -33,10 +33,11 @@ Title · Language · Voice (picker with samples and a Male/Female filter; voices
 - There's no dedicated sound-effects tool: SFX come from short prompts, then you trim them.
 
 ## Ads Generation (`/studio/ads-generation`)
-- **Basics:** Ad title · Orientation (16:9 / 9:16) · Industry and audience · Product image.
-- **Style & brief:** optional tags for visual style, goal, tone, hook, focus and CTA style.
-- **Clips:** each clip has a Scene Prompt (the scene image) and a Video Prompt (camera and action), and is generated one by one.
-- **Then:** optional AI voice-over and background music, then Finalize.
+1. **Project details:** Ad title · Video orientation (Landscape 16:9 / Portrait 9:16) · Language · Industry (Beauty, Technology, Fitness, Food, Fashion, Home, Health, Finance, Travel, Education, Automotive, **Gaming**, E-commerce) · Target audience (required, up to 500 characters) · **Product images** (required, one or more, JPG/PNG/WEBP) · AI models: LLM model, Video model, Image edit model.
+2. **Style & creative brief** (all optional; pick a tag or type your own): Visual style (Cinematic, UGC, Lifestyle, Documentary, Minimalist) · Ad goal (Awareness, Conversion, Retargeting) · Tone (Premium, Playful, Urgent, Trustworthy) · Hook style (Problem-first, Benefit-first, Curiosity) · Product focus (Feature, Outcome, Lifestyle) · CTA style (Shop now, Learn more, Limited offer).
+3. **Clips:** each clip has a **Scene Prompt** (the scene image: lighting, composition, product placement), then a generated scene image, then a **Video Prompt** (camera movement and action). Each clip is generated on its own, with an "Enhance prompt" button. If a scene fails, Flara suggests switching the image model.
+4. **Voiceover & Background Music** (optional): voice-over text plus a music description. These **replace all clip audio** in the final ad.
+5. **Finalize:** stitch, watch, download.
 
 ## Video Translation (`/studio/video-translation`)
 Video File · Target Language · Title (optional). Output: a dubbed video and an **SRT subtitle file**. No prompt.

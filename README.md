@@ -28,7 +28,7 @@ The tech-principal proposal is a claude.ai doc: [Flara: Proposed Business Model 
 | `CLAUDE.md` | Working rules for Claude sessions on this project |
 | `management/`, `partners/`, `bmc/` | The decks |
 | `context/` | Shared facts: product, audiences, partners; forum rule PDFs in `context/aaffiat-rules/` |
-| `game-to-gain/` | Game to Gain: a Flara prompt pack per game (`ibn-battuta/`) |
+| `game-to-gain/` | Game to Gain: a Flara prompt pack per game (`ibn-battuta/`, `crab-quest/`) |
 | `film-festival/` | Film Festival use case ("The Dark Room"): rules, script, Flara prompts |
 | `Falara AI LEGO model Egypt.md` | Full research report with sources. Market-size figures in it are NOT used in the decks |
 | `docs/tech-principal-proposal.md` | Markdown copy of the tech-principal doc |

@@ -46,7 +46,7 @@ The game itself is judged. Flara never makes the game, its sprites or its levels
 - **Topic in the rules:** "Creative story" (it also carries an ocean-pollution message).
 - **Inputs** (`~/Desktop/GD/Crab-game/`): `images/crab_medium.png`, `images/logo.png`, and the backgrounds `level_1_bg.jpg` (kitchen), `level_3_bg.jpg` (sea floor) and `level_6_bg.png` (home); `music/background_music.mp3` is the current track. Record 20 s of gameplay.
 - **Flara steps:**
-  1. **Ads Generation:** a 15–20 s ad. Hook: "A crab escapes the kitchen and swims home through a polluted sea. Can you get her home?"
+  1. **Ads Generation:** a 15–20 s ad. Hook: "A crab escapes the kitchen and swims home through a polluted sea. Can you get it home?"
   2. **Image to Video:** animate the crab sprite and the logo for the ad's first and last shots.
   3. **AI Music:** an upbeat ocean theme to replace `background_music.mp3`, plus SFX for bubbles, a wave and a trash hit. **This targets Excellence in Audio.**
   4. **Video Translation:** Arabic and English versions of the ad.
