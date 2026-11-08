@@ -2,7 +2,7 @@
 
 **Idea:** the demo uses Ibrahim's own game, *The Adventures of Ibn Battuta* (deck slide 2). Its design doc says it has no opening cutscene and no closing screen. In the room, Flara makes the missing film around a real forum game. This is the Game to Gain pitch in one example: the students code the game, and Flara makes the story, film and marketing around it.
 
-The demo sits on **slide 12** (Game to Gain example). The trailer file is `game-to-gain.mp4` in this folder.
+The demo sits on **slide 11** (Game to Gain example). The trailer file is `game-to-gain.mp4` in this folder.
 
 ## Before 3 pm (about 2 hours)
 
@@ -14,7 +14,6 @@ The demo sits on **slide 12** (Game to Gain example). The trailer file is `game-
 2. **Optional, only if there's time:** a 15 s ad cut of the same trailer (this targets the Best Marketing award).
 3. **Check the account:** logged in, with enough tokens for one live scene (the free plan has 500), and the browser tab already open on the story step.
 4. **Make an offline backup:** the MP4 on the laptop plus 3 screenshots of the Flara steps, in case the Wi-Fi fails.
-5. **Film Festival example (slide 10):** if a film isn't ready, describe it in one sentence and move on.
 
 ## In the room (4 minutes max)
 
@@ -24,8 +23,8 @@ The demo sits on **slide 12** (Game to Gain example). The trailer file is `game-
 | 0:30 | "Here's the one-line idea a student writes." | Flara: type the logline |
 | 1:00 | "The student's own drawing becomes the character." | Upload the start-screen art |
 | 2:00 | "One scene: arriving in Cairo." | Generate one scene. If it's slow, keep talking and move on. |
-| 3:00 | "Here's the full trailer the student would submit." | Slide 12: play the MP4 |
-| 3:45 | "The student wrote the story, drew the art and coded the game. Flara did the animation, music and voice, and it's all logged for the judges." | Slide 14 next |
+| 3:00 | "Here's the full trailer the student would submit." | Slide 11: play the MP4 |
+| 3:45 | "The student wrote the story, drew the art and coded the game. Flara did the animation, music and voice, and it's all logged for the judges." | Slide 13 next |
 
 ## Don't
 
