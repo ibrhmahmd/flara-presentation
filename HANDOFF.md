@@ -16,6 +16,7 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 | Management deck, `management/` (8 slides) | Rights Hero leadership | Fresh decision-focused skeleton; rework slide by slide |
 | Partners deck, `partners/` (23 slides + 2 backups) | AAFFIAT organisers and academies, one meeting | v2 built; make 3 example films, fill placeholders |
 | Tech-principal proposal doc | My tech principal | Draft; I need to edit it with my own vision |
+| Business Model Canvas, `bmc/` (12 slides) | Rights Hero leadership | Built; decide payer A or B, fill [TBD]/[Confirm] |
 | Pre-read PDF | Partner, before the meeting | Parked |
 
 ## Decisions log
@@ -80,6 +81,12 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Partners deck edited: pricing slide and courses slide removed (21 slides + 2 backups); courses are one line on the academies impact slide; phases dated; close asks for two pilot academies and a requirements session per academy.
 - Example films (3) still to make; their slides show placeholders.
 - Added the Flara logo (from flara.io/assets/Flara_light.png, cropped) on the cover and close, and slide 2 showing three games Ibrahim coached (Ibn Battuta, Crab Quest, Space X; images from ~/Desktop/GD). Demo plan in `partners/media/demo-plan.md`: Flara makes the missing opening film for the Ibn Battuta game (slide 12).
+
+### 8 Nov 2026 (Business Model Canvas)
+- New `bmc/` deck: a Flara today canvas and a Flara Education Egypt year-1 canvas, then one slide per block. LEGO is in the notes only. Full decisions are in `bmc/context.md`.
+- Payer: two options for leadership. A is Enterprise for instructor accounts. B is Enterprise plus student seats, with the cost built into the course fee. Both have token top-ups; the pilot uses Free plans.
+- Competitions are key partners (no money either way), not a segment. There are rounds in February, May **and August**.
+- Year-1 goal: Flara used in every round and every course, not revenue.
 
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).

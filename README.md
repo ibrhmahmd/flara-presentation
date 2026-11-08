@@ -11,6 +11,7 @@ Each deck is one self-contained folder. Open `index.html` in a browser (double-c
 | Deck | Audience | Folder | Status |
 |---|---|---|---|
 | Flara Growth Plan (8 slides) | Rights Hero leadership | `management/` | Fresh skeleton, to rework slide by slide |
+| Flara Business Model Canvas (12 slides) | Rights Hero leadership | `bmc/` | Built 8 Nov; open items in `bmc/context.md` |
 | Flara for AAFFIAT (23 slides + 2 backups) | AAFFIAT organisers and academies | `partners/` | v2 built; example films and placeholders to fill |
 
 Keys: ←/→ or space to move, Home/End, **N** speaker notes, **F** fullscreen. The URL hash (`#5`) is the slide number.
@@ -25,9 +26,9 @@ The tech-principal proposal is a claude.ai doc: [Flara: Proposed Business Model 
 |---|---|
 | `HANDOFF.md` | Current state, decisions log, open items, next steps |
 | `CLAUDE.md` | Working rules for Claude sessions on this project |
-| `management/`, `partners/` | The two decks |
+| `management/`, `partners/`, `bmc/` | The decks |
 | `context/` | Shared facts: product, audiences, partners; forum rule PDFs in `context/aaffiat-rules/` |
-| `game-to-gain/` | Game to Gain use cases: Flara prompts per game |
+| `game-to-gain/` | Game to Gain: a Flara prompt pack per game (`ibn-battuta/`) |
 | `film-festival/` | Film Festival use case ("The Dark Room"): rules, script, Flara prompts |
 | `Falara AI LEGO model Egypt.md` | Full research report with sources. Market-size figures in it are NOT used in the decks |
 | `docs/tech-principal-proposal.md` | Markdown copy of the tech-principal doc |

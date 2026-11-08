@@ -1,6 +1,6 @@
 # Business Model Canvas: context
 
-Flara's Business Model Canvas, built block by block. Slide 1 is the full canvas. Slides 2–10 hold one block each, in the order we fill them: segments, value, channels, relationships, revenue, resources, activities, partners, costs. Shared facts are in `../context/`.
+Flara's Business Model Canvas, built block by block. 12 slides for Rights Hero leadership: 1 Flara today canvas, 2 Education canvas, 3–7 segments, value, channels, relationships, revenue, 8 the A/B payer decision, 9–12 resources, activities, partners, costs. Each block slide compares today with Education year 1; LEGO's version is in the notes. Shared facts are in `../context/`.
 
 ## Starting point
 

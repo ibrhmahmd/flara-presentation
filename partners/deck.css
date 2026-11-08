@@ -79,3 +79,5 @@ li::marker { color: var(--muted); }
 .bmc ul { gap: 6px; font-size: 28px; line-height: 1.25; }
 .kp { grid-area: kp; } .ka { grid-area: ka; } .kr { grid-area: kr; } .vp { grid-area: vp; } .cr { grid-area: cr; }
 .ch { grid-area: ch; } .cs { grid-area: cs; } .c { grid-area: c; } .r { grid-area: r; }
+.bmc h3 { font: 700 24px/1.2 var(--body); color: var(--ink); margin: 10px 0 4px; }
+.bmc h3:first-of-type { margin-top: 0; }

@@ -33,7 +33,7 @@ This is a content project (decks and a proposal doc), not a codebase: there is n
 ## Decks and docs
 
 - Two decks, each a self-contained folder and the local source of truth: `management/` (internal, leadership) and `partners/` (academies and competitions in one deck: shared core, then a section for each audience).
-- Each folder: `index.html` (every slide is a `<section>` in `.deck`, speaker notes in `<aside>`), `context.md` (audience, asks, placeholders), `deck.css` (design system) and `deck.js` (keyboard runner; adds the footer and slide numbers). `deck.css`/`deck.js` are identical copies: after editing one, copy it to the other folder.
+- Each folder: `index.html` (every slide is a `<section>` in `.deck`, speaker notes in `<aside>`), `context.md` (audience, asks, placeholders), `deck.css` (design system) and `deck.js` (keyboard runner; adds the footer and slide numbers). `deck.css`/`deck.js` are identical copies in every deck folder (`management/`, `partners/`, `bmc/`): after editing one, copy it to the others. `bmc/` holds the Business Model Canvas (two canvases + block slides).
 - Design system: white background, navy/grey only (no accent colours), Space Grotesk titles + DM Sans body, a 1920×1080 stage, body text ≥ 28px, WCAG AA contrast, a title that states the point, at most ~6 bullets. Use the existing classes (`eyebrow`, `card`, `panel`, `grid cols-N`, `takeaway`, `lede`) rather than inline styling.
 - Deck keys: ←/→ or space, Home/End, **N** notes, **F** fullscreen; the URL hash (`#5`) is the slide number. `partners/media/briefs.md` holds the example-film briefs.
 - Check a slide by screenshotting it with headless Chrome: `google-chrome --headless=new --window-size=1920,1080 --screenshot=out.png "file://$PWD/partners/index.html#5"`.
