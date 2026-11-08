@@ -48,6 +48,8 @@ li::marker { color: var(--muted); }
 .takeaway { margin-top: auto; padding-top: 32px; border-top: 1px solid var(--rule); font-size: 34px; font-weight: 500; color: var(--ink); }
 .center { justify-content: center; }
 .divider { justify-content: center; background: var(--surface); }
+.logo { height: 64px; width: auto; align-self: flex-start; margin-bottom: 56px; }
+.shot { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border: 1px solid var(--rule); margin-bottom: 24px; }
 
 /* Footer: deck name + slide number, filled by deck.js */
 .footer { position: absolute; left: 128px; right: 128px; bottom: 48px; display: flex; justify-content: space-between; font-size: 24px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; }

@@ -79,6 +79,7 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Plan agreed: Nov pitch + instructor training; Dec–Jan students build projects in class; Feb round; May on grow. February path settled as "start now" (option A/C mix, two academies).
 - Partners deck edited: pricing slide and courses slide removed (21 slides + 2 backups); courses are one line on the academies impact slide; phases dated; close asks for two pilot academies and a requirements session per academy.
 - Example films (3) still to make; their slides show placeholders.
+- Added the Flara logo (from flara.io/assets/Flara_light.png, cropped) on the cover and close, and slide 2 showing three games Ibrahim coached (Ibn Battuta, Crab Quest, Space X; images from ~/Desktop/GD). Demo plan in `partners/media/demo-plan.md`: Flara makes the missing opening film for the Ibn Battuta game (slide 12).
 
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).

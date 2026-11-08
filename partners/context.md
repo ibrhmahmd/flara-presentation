@@ -2,7 +2,9 @@
 
 The first pitch to the **Afro-Asian Forum (AAFFIAT) organisers and academy owners, together in one meeting**. Competition facts come from `../context/aaffiat-competitions.md` (the forum's Drive files). Shared product facts are in `../context/`.
 
-## Flow (21 slides + 2 backups)
+## Flow (22 slides + 2 backups)
+
+Slide numbers below are from before slide 2 (games Ibrahim coached) was added on 8 Nov: add 1 from slide 2 on. The demo plan is in `media/demo-plan.md`.
 
 - **Intro (1–5):** cover, what Flara is, what it does, why, five steps.
 - **The forum (6–7):** the February and May 2027 rounds; storytelling is already scored in all three competitions.
@@ -25,7 +27,7 @@ No live demo: the example videos are the proof. Briefs are in `media/briefs.md`.
 
 ## Placeholders to fill
 
-`[Date]` (cover, next step), `[dates]` for both rounds, `[N]` instructors and sample projects, `[film title]`, `[game title]`, `[product name]`, `[Role]`, `[Email]`, `[Phone]`.
+`[Date]` (cover, next step), `[dates]` for both rounds, `[N]` instructors and sample projects, `[film title]`, `[product name]`, `[Role]`, `[Email]`, `[Phone]`.
 
 ## To confirm with the organisers
 
