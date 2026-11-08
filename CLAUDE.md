@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Read `README.md` and `HANDOFF.md` first. Background research is in `Falara AI LEGO model Egypt.md`; product facts in `context/product-facts.md`; per-audience messaging in `context/audiences-and-messaging.md`.
 
-This is a content project (decks and a proposal doc), not a codebase: there is no build, lint or test step, and no git repo.
+This is a content project (decks and a proposal doc), not a codebase: there is no build, lint or test step. It is a git repo (cloud sessions work on a feature branch); open `index.html` directly in a browser to preview a deck.
 
 ## About the user
 
@@ -35,6 +35,7 @@ This is a content project (decks and a proposal doc), not a codebase: there is n
 - Two decks, each a self-contained folder and the local source of truth: `management/` (internal, leadership) and `partners/` (academies and competitions in one deck: shared core, then a section for each audience).
 - Each folder: `index.html` (every slide is a `<section>` in `.deck`, speaker notes in `<aside>`), `context.md` (audience, asks, placeholders), `deck.css` (design system) and `deck.js` (keyboard runner; adds the footer and slide numbers). `deck.css`/`deck.js` are identical copies: after editing one, copy it to the other folder.
 - Design system: white background, navy/grey only (no accent colours), Space Grotesk titles + DM Sans body, a 1920×1080 stage, body text ≥ 28px, WCAG AA contrast, a title that states the point, at most ~6 bullets. Use the existing classes (`eyebrow`, `card`, `panel`, `grid cols-N`, `takeaway`, `lede`) rather than inline styling.
+- Deck keys: ←/→ or space, Home/End, **N** notes, **F** fullscreen; the URL hash (`#5`) is the slide number. `partners/media/briefs.md` holds the example-film briefs.
 - Check a slide by screenshotting it with headless Chrome: `google-chrome --headless=new --window-size=1920,1080 --screenshot=out.png "file://$PWD/partners/index.html#5"`.
 - External decks keep `[Partner name]`, `[Date]`-style placeholders until Ibrahim fills them; don't invent values.
 - The tech-principal proposal is a claude.ai doc (link in `README.md`); `docs/tech-principal-proposal.md` is a mirror.
