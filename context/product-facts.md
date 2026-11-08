@@ -16,6 +16,8 @@ Flara lists nine studios:
 8. Image to Video (students draw, Flara animates)
 9. URL to Video
 
+Field-by-field parameters of each studio: `flara-studio-parameters.md`.
+
 Also: Flara MCP (connect ChatGPT or Claude to a Flara account).
 
 Models named on the site: Google Veo 3 / 3.1, Runway Gen-3, Pika Labs, Seedance 1.5 Pro / 2.0, Grok Imagine, Kling 2.1 / 2.6, ByteDance V1 Pro. Their terms set the effective minimum age (13+ for mainstream providers) and matter for cross-border data rules.
