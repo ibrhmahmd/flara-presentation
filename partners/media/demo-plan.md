@@ -14,7 +14,7 @@ The demo sits on **slide 12** (Game to Gain example). The trailer file is `game-
 2. **Optional, only if there's time:** a 15 s ad cut of the same trailer (this targets the Best Marketing award).
 3. **Check the account:** logged in, with enough tokens for one live scene (the free plan has 500), and the browser tab already open on the story step.
 4. **Make an offline backup:** the MP4 on the laptop plus 3 screenshots of the Flara steps, in case the Wi-Fi fails.
-5. **Film Festival example (slide 10) and the Crab Quest ad (slide 12, right slot):** if a film isn't ready, describe it in one sentence and move on.
+5. **Film Festival example (slide 10):** if a film isn't ready, describe it in one sentence and move on.
 
 ## In the room (4 minutes max)
 

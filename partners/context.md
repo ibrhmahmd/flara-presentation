@@ -7,13 +7,13 @@ The first pitch to the **Afro-Asian Forum (AAFFIAT) organisers and academy owner
 - **Intro (1–6):** cover (Flara logo, 8 Nov 2026), the games Ibrahim coached (2), what Flara is, what it does, why, five steps.
 - **The forum (7–8):** the February and May 2027 rounds; storytelling is already scored in all three competitions.
 - **Film Festival (9–10):** "students film the present; Flara animates the past", then the example "The Dark Room" (`../film-festival/`).
-- **Game to Gain (11–12):** Flara mapped to the game video, Idea, Audio and Best Marketing, then two examples: the Ibn Battuta opening film and the Crab Quest ad (`../game-to-gain/`). This is the demo slot.
+- **Game to Gain (11–12):** Flara mapped to the game video, Idea, Audio and Best Marketing, then the example: the Ibn Battuta opening film (`../game-to-gain/ibn-battuta/`). This is the demo slot.
 - **Entrepreneur (13):** the rules slide only; the example comes for the May round.
 - **Making it work (14–20):** student-made (14), proposed AI-use policy (15), impact for the forum and the academies (16–17), the 4 phases (18), Phase 1 (19), Phase 2 (20).
 - **Close (21):** the ask (two pilot academies for February + a requirements session per academy) and contact (Ibrahim Ahmed · flara.io).
 - **Backups (22–23):** instructor accounts vs student accounts. Reach them with End.
 
-Branding: Flara only (no Rights Hero on slides, 8 Nov). The demo plan is in `media/demo-plan.md`; the example videos go in `media/` (`film-festival.mp4`, `game-to-gain.mp4`, `crab-quest-ad.mp4`) and show a placeholder until they exist.
+Branding: Flara only (no Rights Hero on slides, 8 Nov). The demo plan is in `media/demo-plan.md`; the example videos go in `media/` (`film-festival.mp4`, `game-to-gain.mp4`) and show a placeholder until they exist.
 
 ## Decisions
 
