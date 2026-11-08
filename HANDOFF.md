@@ -1,6 +1,6 @@
 # Handoff: Flara partnerships project
 
-Last updated: 7 November 2026. See `README.md` for the folder map and `CLAUDE.md` for working rules.
+Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md` for working rules.
 
 ## Context
 
@@ -14,7 +14,7 @@ Last updated: 7 November 2026. See `README.md` for the folder map and `CLAUDE.md
 | Deliverable | Audience | State |
 |---|---|---|
 | Management deck, `management/` (8 slides) | Rights Hero leadership | Fresh decision-focused skeleton; rework slide by slide |
-| Partners deck, `partners/` (13 slides) | Academy owners and competition directors | Ready; fill placeholders, prepare demo |
+| Partners deck, `partners/` (23 slides + 2 backups) | AAFFIAT organisers and academies, one meeting | v2 built; make 3 example films, fill placeholders |
 | Tech-principal proposal doc | My tech principal | Draft; I need to edit it with my own vision |
 | Pre-read PDF | Partner, before the meeting | Parked |
 
@@ -56,6 +56,15 @@ Last updated: 7 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Old deck sources and the first leadership HTML draft are deleted (no backup, by choice).
 - Pre-read PDF parked.
 
+### 8 Nov 2026 (partners deck v2)
+- The partners deck is now the first pitch to the AAFFIAT forum and academies in one meeting. Chapters: Film Festival, Game to Gain, Entrepreneur. Facts are in `context/aaffiat-competitions.md`.
+- There's no Storytelling competition: storytelling is the thread through every chapter, and a new category is proposed for Phase 4.
+- The rules are silent on AI: we propose a tool-neutral AI-use policy and disclosure kit.
+- Phases: instructors, student pilot (2 academies, 20 students, ~10 projects), May round, full season. Periods are to be written by Ibrahim.
+- Accounts (instructor vs student) are undecided, with both in backup slides.
+- Pricing shows today's plans only. Game to Gain may mention sound effects and "coming soon" image generation.
+- No live demo: three example videos instead (briefs in `partners/media/briefs.md`).
+
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).
 - Tokens used by one competition film (sizes the Team Season Pass).
@@ -65,8 +74,8 @@ Last updated: 7 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Whether families can also buy Flara directly, or academies only (question left in the tech-principal doc).
 
 ## Next steps
-1. Partners deck: fill placeholders ([Partner name], [Date], pilot sessions, access terms, season, trailer length, role, email, phone).
-2. Prepare the live demo: the game idea "A robot rescues the Nile's lost treasures", a pre-made story and cast, and a finished backup trailer.
+1. Partners deck: make the 3 example films (`partners/media/briefs.md`) and fill placeholders (see `partners/context.md`).
+2. Confirm with the AAFFIAT organisers: 2027 dates, the Entrepreneur rules for 2027, any AI policy, the Game to Gain sponsor.
 3. Edit the tech-principal doc with my own thoughts.
 4. Rework the management deck slide by slide (skeleton in `management/`).
 5. Delete the 3 old claude.ai Slides decks: they weren't found on the account used on 7 Nov, so delete them from the account that created them.

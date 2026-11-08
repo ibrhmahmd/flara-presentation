@@ -15,10 +15,18 @@
     s.append(f);
   });
 
+  // A missing media file leaves the slot's placeholder text showing.
+  // The error can fire before this script runs, so check the state too.
+  deck.querySelectorAll("video").forEach(v => {
+    if (v.error || v.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) v.remove();
+    else v.addEventListener("error", () => v.remove());
+  });
+
   let cur = 0;
   function show(i) {
     cur = Math.max(0, Math.min(slides.length - 1, i));
     slides.forEach((s, j) => s.classList.toggle("active", j === cur));
+    deck.querySelectorAll("video").forEach(v => v.pause());
     const aside = slides[cur].querySelector("aside");
     notes.innerHTML = `<b>Notes · slide ${cur + 1}</b>` + (aside ? aside.innerHTML : "No notes.");
     history.replaceState(null, "", "#" + (cur + 1));
@@ -41,7 +49,7 @@
     else return;
     e.preventDefault();
   });
-  deck.addEventListener("click", e => show(cur + (e.clientX > innerWidth / 2 ? 1 : -1)));
+  deck.addEventListener("click", e => e.target.closest("video") || show(cur + (e.clientX > innerWidth / 2 ? 1 : -1)));
   addEventListener("resize", fit);
   addEventListener("hashchange", () => show(parseInt(location.hash.slice(1), 10) - 1 || 0));
 

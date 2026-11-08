@@ -11,7 +11,7 @@ Each deck is one self-contained folder. Open `index.html` in a browser (double-c
 | Deck | Audience | Folder | Status |
 |---|---|---|---|
 | Flara Growth Plan (8 slides) | Rights Hero leadership | `management/` | Fresh skeleton, to rework slide by slide |
-| Flara for Partners (13 slides) | Academy owners and competition directors | `partners/` | Ready, placeholders to fill |
+| Flara for AAFFIAT (23 slides + 2 backups) | AAFFIAT organisers and academies | `partners/` | v2 built; example films and placeholders to fill |
 
 Keys: ←/→ or space to move, Home/End, **N** speaker notes, **F** fullscreen. The URL hash (`#5`) is the slide number.
 

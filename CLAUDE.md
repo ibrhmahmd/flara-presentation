@@ -20,7 +20,8 @@ This is a content project (decks and a proposal doc), not a codebase: there is n
 ## Content rules
 
 - **No market-size numbers** (TAM/SAM/SOM) in any presentation. The research report contains them; don't carry them over.
-- **Never claim game-asset export** (sprites, tilesets, SFX for Scratch, Pygame, Pygame Zero, HTML/CSS). It is roadmap. In external decks, don't mention it at all.
+- **Never claim game-asset export** (sprites, tilesets into Scratch, Pygame, Pygame Zero, HTML/CSS, Unity). It is roadmap. Allowed in external decks (Ibrahim, 8 Nov 2026): soundtracks and sound effects via music prompts, sprite descriptions keeping characters consistent in videos, and image generation labelled "coming soon".
+- Pricing: show only today's public plans until Ibrahim says otherwise.
 - Live today: story drafting, consistent characters/scenes/styles, animated short films, AI music, text-to-speech, video translation, image to video (see `context/product-facts.md`).
 - External pitches: never say students "don't need coding". Flara adds story, art and film around the code.
 - Parents are the end audience for academies and competitions: they pay and they judge what they see.
