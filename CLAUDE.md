@@ -21,7 +21,7 @@ This is a content project (decks and a proposal doc), not a codebase: there is n
 
 - **No market-size numbers** (TAM/SAM/SOM) in any presentation. The research report contains them; don't carry them over.
 - **Never claim game-asset export** (sprites, tilesets into Scratch, Pygame, Pygame Zero, HTML/CSS, Unity). It is roadmap. Allowed in external decks (Ibrahim, 8 Nov 2026): soundtracks and sound effects via music prompts, sprite descriptions keeping characters consistent in videos, and image generation labelled "coming soon".
-- Pricing: show only today's public plans until Ibrahim says otherwise.
+- Pricing: no pricing in the partners deck (8 Nov 2026). Public plans are in `context/product-facts.md`; partner pricing and forum offers are for Flara management to decide.
 - Live today: story drafting, consistent characters/scenes/styles, animated short films, AI music, text-to-speech, video translation, image to video (see `context/product-facts.md`).
 - External pitches: never say students "don't need coding". Flara adds story, art and film around the code.
 - Parents are the end audience for academies and competitions: they pay and they judge what they see.

@@ -75,6 +75,11 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Ibrahim wants students starting ASAP: instructors in Nov, courses Dec, projects Jan. Concern: submissions are due before the February round and January may be exams, so projects should start in Dec.
 - **Open, being discussed:** February path. A) Flara sprint inside existing academy courses; B) instructor showcase in Feb, students in May; C) hybrid: one academy (Techno Future) runs a small sprint for Feb, full courses for May. Claude recommends C.
 
+### 8 Nov 2026 (before the 3 pm forum director meeting)
+- Plan agreed: Nov pitch + instructor training; Dec–Jan students build projects in class; Feb round; May on grow. February path settled as "start now" (option A/C mix, two academies).
+- Partners deck edited: pricing slide and courses slide removed (21 slides + 2 backups); courses are one line on the academies impact slide; phases dated; close asks for two pilot academies and a requirements session per academy.
+- Example films (3) still to make; their slides show placeholders.
+
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).
 - Tokens used by one competition film (sizes the Team Season Pass).
@@ -84,7 +89,7 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Whether families can also buy Flara directly, or academies only (question left in the tech-principal doc).
 
 ## Next steps
-0. Decide the February path (A/B/C above), then apply the partners-deck changes slide by slide.
+0. Make the 3 example films (see `partners/media/briefs.md`); fill in the director meeting outcomes (deadline, AI view, academies, sponsor).
 1. Partners deck: make the 3 example films (`partners/media/briefs.md`) and fill placeholders (see `partners/context.md`).
 2. Confirm with the AAFFIAT organisers: 2027 dates, the Entrepreneur rules for 2027, any AI policy, the Game to Gain sponsor.
 3. Edit the tech-principal doc with my own thoughts.
