@@ -37,6 +37,7 @@ This is a content project (decks and a proposal doc), not a codebase: there is n
 - Design system: white background, navy/grey only (no accent colours), Space Grotesk titles + DM Sans body, a 1920×1080 stage, body text ≥ 28px, WCAG AA contrast, a title that states the point, at most ~6 bullets. Use the existing classes (`eyebrow`, `card`, `panel`, `grid cols-N`, `takeaway`, `lede`) rather than inline styling.
 - Deck keys: ←/→ or space, Home/End, **N** notes, **F** fullscreen; the URL hash (`#5`) is the slide number. `partners/media/briefs.md` holds the example-film briefs.
 - Check a slide by screenshotting it with headless Chrome: `google-chrome --headless=new --window-size=1920,1080 --screenshot=out.png "file://$PWD/partners/index.html#5"`.
+- External decks are branded **Flara only** (no Rights Hero on slides; Ibrahim, 8 Nov 2026).
 - External decks keep `[Partner name]`, `[Date]`-style placeholders until Ibrahim fills them; don't invent values.
 - The tech-principal proposal is a claude.ai doc (link in `README.md`); `docs/tech-principal-proposal.md` is a mirror.
 - After a working session, update `HANDOFF.md` (current state, decisions log with date, open items, next steps).
