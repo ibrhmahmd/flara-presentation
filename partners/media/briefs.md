@@ -59,12 +59,11 @@ Ibn Battuta plays on slide 12. If Crab Quest is ready, show the ad right after i
 
 ---
 
-## Part 2. Film Festival use case: `film-festival.mp4`
+## Part 2. Film Festival
 
-### What the rules require (from the PDF)
+Moved to its own folder: `../../film-festival/README.md`. The meeting excerpt is saved here as `film-festival.mp4`.
 
-| Rule | Requirement | How this film meets it |
-|---|---|---|
+---|---|---|
 | 1.1 | Ages 9–16, Egypt | An academy team of 13–16 year-olds (student accounts possible); younger teams use an instructor-run account |
 | 2.1 | MP4 or MOV | Flara exports MP4 |
 | 2.2 | A logline | Written by the students (below) |

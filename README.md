@@ -26,6 +26,7 @@ The tech-principal proposal is a claude.ai doc: [Flara: Proposed Business Model 
 | `HANDOFF.md` | Current state, decisions log, open items, next steps |
 | `CLAUDE.md` | Working rules for Claude sessions on this project |
 | `management/`, `partners/` | The two decks |
-| `context/` | Shared facts: product, audiences, partners |
+| `context/` | Shared facts: product, audiences, partners; forum rule PDFs in `context/aaffiat-rules/` |
+| `film-festival/` | Film Festival use case ("The Dark Room"): rules, script, Flara prompts |
 | `Falara AI LEGO model Egypt.md` | Full research report with sources. Market-size figures in it are NOT used in the decks |
 | `docs/tech-principal-proposal.md` | Markdown copy of the tech-principal doc |
