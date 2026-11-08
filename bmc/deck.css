@@ -1,0 +1,81 @@
+/* Flara deck design system. Identical copy in each deck folder: edit one, copy to the others. */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500..700&family=DM+Sans:wght@400..700&display=swap");
+
+:root {
+  --ink: #15172B;      /* titles */
+  --text: #2B2D42;     /* body */
+  --muted: #555A6E;    /* labels, footer: 6.6:1 on white (AA) */
+  --rule: #D9DBE3;
+  --surface: #F4F5F7;
+  --bg: #FFFFFF;
+  --title: "Space Grotesk", Arial, sans-serif;
+  --body: "DM Sans", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; }
+html, body { height: 100%; background: #E9EAEE; overflow: hidden; }
+
+/* 1920x1080 stage, scaled to the window by deck.js */
+.deck { position: absolute; top: 0; left: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+.deck > section {
+  position: absolute; inset: 0; display: none; flex-direction: column;
+  padding: 112px 128px 160px; background: var(--bg); color: var(--text);
+  font: 400 32px/1.4 var(--body);
+}
+.deck > section.active { display: flex; }
+.deck > section > aside { display: none; }   /* speaker notes: shown by deck.js */
+
+/* Type: body never below 28px */
+.eyebrow { font: 700 24px/1 var(--body); letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 28px; }
+h1 { font: 700 96px/1.05 var(--title); letter-spacing: -2px; color: var(--ink); max-width: 1500px; }
+h2 { font: 700 68px/1.1 var(--title); letter-spacing: -1px; color: var(--ink); max-width: 1600px; margin-bottom: 64px; }
+h3 { font: 700 34px/1.2 var(--title); color: var(--ink); margin-bottom: 12px; }
+.lede { font-size: 40px; line-height: 1.35; color: var(--text); max-width: 1400px; }
+.small, .label { font-size: 28px; color: var(--muted); }
+.label { font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 24px; margin-bottom: 16px; }
+ul { padding-left: 1.1em; display: grid; gap: 16px; }
+li::marker { color: var(--muted); }
+
+/* Layout */
+.grid { display: grid; gap: 40px; }
+.cols-2 { grid-template-columns: repeat(2, 1fr); }
+.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.card { border-top: 4px solid var(--ink); padding-top: 28px; }
+.card p { font-size: 30px; color: var(--text); }
+.panel { background: var(--surface); padding: 40px 44px; }
+.num { font: 700 24px/1 var(--body); letter-spacing: 2px; color: var(--muted); margin-bottom: 16px; }
+.takeaway { margin-top: auto; padding-top: 32px; border-top: 1px solid var(--rule); font-size: 34px; font-weight: 500; color: var(--ink); }
+.center { justify-content: center; }
+.divider { justify-content: center; background: var(--surface); }
+.logo { height: 64px; width: auto; align-self: flex-start; margin-bottom: 56px; }
+.shot { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border: 1px solid var(--rule); margin-bottom: 24px; }
+
+/* Footer: deck name + slide number, filled by deck.js */
+.footer { position: absolute; left: 128px; right: 128px; bottom: 48px; display: flex; justify-content: space-between; font-size: 24px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; }
+
+/* Speaker notes panel (N) */
+#notes {
+  position: fixed; left: 0; right: 0; bottom: 0; max-height: 40vh; overflow: auto; display: none;
+  background: var(--ink); color: #fff; font: 400 18px/1.5 var(--body); padding: 20px 28px;
+}
+#notes.open { display: block; }
+#notes b { display: block; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #B8BBCB; margin-bottom: 6px; }
+
+/* Video slot: shows the placeholder until media/<file>.mp4 exists */
+.video { position: relative; flex: 1; min-height: 0; background: var(--surface); border: 1px solid var(--rule); display: flex; align-items: center; justify-content: center; text-align: center; }
+.video p { font-size: 28px; color: var(--muted); max-width: 900px; }
+.video video { position: absolute; inset: 0; width: 100%; height: 100%; background: #000; }
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.tag { display: inline-block; font-size: 22px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; border: 2px solid var(--muted); color: var(--muted); padding: 2px 10px; margin-left: 12px; vertical-align: middle; }
+
+/* Business Model Canvas: 5 columns over 2 rows, then cost | revenue */
+.deck > section.canvas { padding: 64px 80px 112px; }
+.canvas h2 { font-size: 48px; margin-bottom: 28px; }
+.bmc { flex: 1; min-height: 0; display: grid; gap: 12px; grid-template-columns: repeat(5, 1fr); grid-template-rows: 1fr 1fr 0.8fr;
+  grid-template-areas: "kp ka vp cr cs" "kp kr vp ch cs" "c c c r r"; }
+.bmc > div { border: 1px solid var(--rule); border-top: 4px solid var(--ink); padding: 16px 20px; overflow: hidden; }
+.bmc .label { font-size: 22px; margin-bottom: 10px; }
+.bmc ul { gap: 6px; font-size: 28px; line-height: 1.25; }
+.kp { grid-area: kp; } .ka { grid-area: ka; } .kr { grid-area: kr; } .vp { grid-area: vp; } .cr { grid-area: cr; }
+.ch { grid-area: ch; } .cs { grid-area: cs; } .c { grid-area: c; } .r { grid-area: r; }

@@ -1,4 +1,4 @@
-/* Flara deck design system. Identical copy in each deck folder: edit one, copy to the other. */
+/* Flara deck design system. Identical copy in each deck folder: edit one, copy to the others. */
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500..700&family=DM+Sans:wght@400..700&display=swap");
 
 :root {
@@ -68,3 +68,14 @@ li::marker { color: var(--muted); }
 .video video { position: absolute; inset: 0; width: 100%; height: 100%; background: #000; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 .tag { display: inline-block; font-size: 22px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; border: 2px solid var(--muted); color: var(--muted); padding: 2px 10px; margin-left: 12px; vertical-align: middle; }
+
+/* Business Model Canvas: 5 columns over 2 rows, then cost | revenue */
+.deck > section.canvas { padding: 64px 80px 112px; }
+.canvas h2 { font-size: 48px; margin-bottom: 28px; }
+.bmc { flex: 1; min-height: 0; display: grid; gap: 12px; grid-template-columns: repeat(5, 1fr); grid-template-rows: 1fr 1fr 0.8fr;
+  grid-template-areas: "kp ka vp cr cs" "kp kr vp ch cs" "c c c r r"; }
+.bmc > div { border: 1px solid var(--rule); border-top: 4px solid var(--ink); padding: 16px 20px; overflow: hidden; }
+.bmc .label { font-size: 22px; margin-bottom: 10px; }
+.bmc ul { gap: 6px; font-size: 28px; line-height: 1.25; }
+.kp { grid-area: kp; } .ka { grid-area: ka; } .kr { grid-area: kr; } .vp { grid-area: vp; } .cr { grid-area: cr; }
+.ch { grid-area: ch; } .cs { grid-area: cs; } .c { grid-area: c; } .r { grid-area: r; }
