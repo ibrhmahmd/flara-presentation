@@ -65,6 +65,16 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Pricing shows today's plans only. Game to Gain may mention sound effects and "coming soon" image generation.
 - No live demo: three example videos instead (briefs in `partners/media/briefs.md`).
 
+### 8 Nov 2026 (partners deck business review, no edits yet)
+- Review found the deck explains Flara well but not the deal. Gaps: no clear give/get per audience, consumer pricing confuses a B2B room, "what's in it for Rights Hero" unanswered, under-13 issue hidden in backups, February is close, no proof yet, 5 intro slides before the forum appears.
+- **Remove the pricing slide** (overrides "show today's public plans").
+- **Accounts:** present instructor vs student accounts as options to decide together with the partners, not a fixed plan.
+- **Forum offers** (event films, sponsored award, workshops, Competition Pass): for Flara management to decide; leave them out of the deck for now.
+- **Courses:** a separate project, built after collecting academy requirements. The deck gives them a single line in the academies impact slide (slide 16 to be removed/merged).
+- **Academies' ask:** a requirements session (age groups, sessions, class size, devices, instructor skills, existing courses, what parents expect).
+- Ibrahim wants students starting ASAP: instructors in Nov, courses Dec, projects Jan. Concern: submissions are due before the February round and January may be exams, so projects should start in Dec.
+- **Open, being discussed:** February path. A) Flara sprint inside existing academy courses; B) instructor showcase in Feb, students in May; C) hybrid: one academy (Techno Future) runs a small sprint for Feb, full courses for May. Claude recommends C.
+
 ## Still open
 - Flara minimum age in Terms (TBD; AI providers behind Flara set 13+).
 - Tokens used by one competition film (sizes the Team Season Pass).
@@ -74,6 +84,7 @@ Last updated: 8 November 2026. See `README.md` for the folder map and `CLAUDE.md
 - Whether families can also buy Flara directly, or academies only (question left in the tech-principal doc).
 
 ## Next steps
+0. Decide the February path (A/B/C above), then apply the partners-deck changes slide by slide.
 1. Partners deck: make the 3 example films (`partners/media/briefs.md`) and fill placeholders (see `partners/context.md`).
 2. Confirm with the AAFFIAT organisers: 2027 dates, the Entrepreneur rules for 2027, any AI policy, the Game to Gain sponsor.
 3. Edit the tech-principal doc with my own thoughts.
